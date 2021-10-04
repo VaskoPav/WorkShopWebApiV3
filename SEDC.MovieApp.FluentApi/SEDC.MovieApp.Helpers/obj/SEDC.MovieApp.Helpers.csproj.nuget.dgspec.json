@@ -1,0 +1,516 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj": {}
+  },
+  "projects": {
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieAPI.Shared\\SEDC.MovieAPI.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieAPI.Shared\\SEDC.MovieAPI.Shared.csproj",
+        "projectName": "SEDC.MovieAPI.Shared",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieAPI.Shared\\SEDC.MovieAPI.Shared.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieAPI.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj",
+        "projectName": "SEDC.MovieApp.DataAccess",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
+        "projectName": "SEDC.MovieApp.Domain",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj",
+        "projectName": "SEDC.MovieApp.Helpers",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Helpers\\SEDC.MovieApp.Helpers.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj"
+              },
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj"
+              },
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj",
+        "projectName": "SEDC.MovieApp.Mappers",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Domain\\SEDC.MovieApp.Domain.csproj"
+              },
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj",
+        "projectName": "SEDC.MovieApp.Models",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+        "projectName": "SEDC.MovieApp.Services",
+        "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Services\\SEDC.MovieApp.Services.csproj",
+        "packagesPath": "C:\\Users\\Vasko\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vasko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieAPI.Shared\\SEDC.MovieAPI.Shared.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieAPI.Shared\\SEDC.MovieAPI.Shared.csproj"
+              },
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.DataAccess\\SEDC.MovieApp.DataAccess.csproj"
+              },
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Mappers\\SEDC.MovieApp.Mappers.csproj"
+              },
+              "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj": {
+                "projectPath": "D:\\WorkShopV3\\WorkShopV3\\SEDC.MovieApp.FluentApi\\SEDC.MovieApp.Models\\SEDC.MovieApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
